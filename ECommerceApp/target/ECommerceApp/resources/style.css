@@ -1,0 +1,22 @@
+.home-container, .register-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.register-container {
+	margin-top: 50px;
+}
+
+a {
+	text-decoration: none;
+	border: 1px solid black;
+	border-radius: 4px;
+	padding: 2px;
+	color: black;
+	background: #e6f7ef;
+}
+
+.error{
+	color: red;
+}
